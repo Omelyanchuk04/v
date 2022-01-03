@@ -1,0 +1,113 @@
+html {
+ font-family:helvetica;
+ scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+.header {
+    background:#27292D;
+    height:45px;
+    padding: 0;
+    width:100% ;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.left-head {
+    float: left;
+    height: 45px;
+    width: 33.333%;
+}
+.menu {
+    float: left;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.logo {
+   float: left;
+   text-align: center;
+   margin-top: 9px;
+   width: 33.333%;
+   height: 45px;
+}
+
+.right-head {
+    float: left;
+    height: 45px;
+    width: 33.333%;
+}
+
+
+.block-1 {
+    background-color:  #F0F8FF;
+    min-height: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.innerblock-1 {
+    color: #383B40;
+    text-align: left;
+    max-width: 730px;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.img-1 {
+    max-width: 100%;
+}
+
+.block-2 {
+    margin-top: 10px;
+    background-color: #F0FFFF;
+    min-height: 900px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+}
+.innerblock-2 {
+    color: #383B40;
+    text-align: left;
+    max-width: 730px;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+
+.img-3 {
+    max-width: 300px;
+    margin: auto;
+}
+
+.in-2 {
+    color: #373737;
+    background-color:white;
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 25px;
+    min-height: 150px;
+    padding: 15px;
+}
+
+.footer {
+    margin-top: 8px;
+    background-color:   #f0faf9;
+    min-height: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
